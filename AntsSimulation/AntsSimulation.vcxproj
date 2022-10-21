@@ -132,8 +132,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Ant.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Window.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="hellotest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ant.h" />
+    <ClInclude Include="globals.h" />
+    <ClInclude Include="Window.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
