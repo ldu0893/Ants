@@ -8,6 +8,6 @@ class Window {
 		Window(GLFWwindow* w);
 	private:
 		GLFWwindow* window;
-		void gameLoop();
-		
+		void loop();
+		void processKeyboardInput();
 };

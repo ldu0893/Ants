@@ -1,8 +1,10 @@
 #include <iostream>
+#include <fstream>
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
 #include "globals.h"
+#include "forward_declarators.h"
 #include "Window.h"
 
 #include <vector>
@@ -40,6 +42,7 @@ GLFWwindow* setup_glfw_window() {
 }
 
 int main(int argc, char* argv[]) {
+	std::ofstream out("workingdir.txt");
 	GLFWwindow* glfwWindow;
 	Window* window;
 

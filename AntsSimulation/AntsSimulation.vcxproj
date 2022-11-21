@@ -134,13 +134,21 @@
   <ItemGroup>
     <ClCompile Include="Ant.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="StaticImage.cpp" />
+    <ClCompile Include="stb_impl.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
     <ClCompile Include="Window.cpp" />
     <ClCompile Include="glad.c" />
-    <ClCompile Include="hellotest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ant.h" />
+    <ClInclude Include="forward_declarators.h" />
     <ClInclude Include="globals.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="StaticImage.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="TextureManager.h" />
     <ClInclude Include="Window.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
